@@ -1,11 +1,15 @@
-import { Button, Heading, VStack } from '@chakra-ui/react'
+
+import { Footer } from './components/layout/Footer'
+import { Header } from './components/layout/header'
+import { PageLayout } from './components/layout/PageLayout'
 
 function App() {
   return (
-    <VStack p={8} spacing={4}>
-      <Heading>Chakra OK</Heading>
-      <Button colorScheme="teal">Funcionando 🎉</Button>
-    </VStack>
+    <>
+      <PageLayout>
+      <></>
+      </PageLayout >
+    </>
   )
 }
 
